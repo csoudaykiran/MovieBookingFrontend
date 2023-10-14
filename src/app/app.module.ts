@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TestService } from './test.service';
 
@@ -17,6 +18,7 @@ import { TestService } from './test.service';
     AppComponent,
     NavbarComponent,
     HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
